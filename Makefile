@@ -1,4 +1,4 @@
-LB_VER = 3.5.5
+LB_VER = 3.6.3
 LB_TAR = liquibase-${LB_VER}-bin.tar.gz
 JDBC_VER = 42.2.5
 JDBC = postgresql-${JDBC_VER}.jar
