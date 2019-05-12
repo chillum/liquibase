@@ -2,7 +2,7 @@
 
 includes driver for Postgres
 
-size of image: 125MB
+size of image: around 90MB
 
 intended usage:
 
