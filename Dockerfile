@@ -1,9 +1,8 @@
 FROM alpine
-ADD liquibase-*-bin.tar.gz /opt/liquibase/
+ADD liquibase-*.tar.gz /opt/liquibase/
 
-FROM openjdk:8-jre-alpine
+FROM openjdk:11-jre-slim
 
-RUN ["apk", "--no-cache", "add", "bash"]
 RUN ln -s /opt/liquibase/liquibase /usr/local/bin/
 WORKDIR /liquibase
 
